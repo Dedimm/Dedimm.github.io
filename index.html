@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body {
+                display: flex;
+                background-color: rgb(255, 124, 255);
+                color: white;
+            }
+
+            .right_side {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                height: 100vh;
+            }
+
+            .left_side {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+            }
+
+            h1 {
+                font-size: 50px;
+                color: black;
+            }
+            h2{
+                font-size: 59px;
+                color :
+            }
+        </style>
         <title>MEU SITEZUDO</title>
-        <body>
+    </head>
+    <body>
+        <div class="left_side">
             <h1>MEU PRIMEIRO SITE</h1>
-            <hr>
-            este é o meu primeiro site e eu aprimorarei ele com o tempo que estou aprendendo desenvolvimento web. <br>
+            <h5>Este é o meu primeiro site e eu aprimorarei ele com o tempo que estou aprendendo desenvolvimento web.</h5>
+        </div>
+
+        <div class="right_side">
             <h2>QUEM SOU EU?</h2>
             eu sou Dedim, a besta mecânica do league of legends e do valorant, prazer em conhecer você, literalmente eu abaixo <br>
-            <video src="valorant-iso.mp4"></video>
+            <video width="512" height="512" autoplay controls>
+                <source src="valorant-iso.mp4" type="video/mp4">
+              </video>
             <hr>
-        </body>
-    </head>
+        </div>
+    </body>
 </html>
